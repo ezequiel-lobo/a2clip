@@ -14,7 +14,6 @@
             <a class="navbar-brand" href="home.html">Home</a>
             <a class="navbar-brand" href="albums.html">Favourite Music</a>
             <a class="navbar-brand" href="playlists.html">Playlists</a>
-            <a class="navbar-brand" href="contact.html">Contact</a>
           </nav>
     </header>
     <section>
@@ -54,7 +53,7 @@
             <a href="https://open.spotify.com/album/2DHGeuRTttjurZDb0pSjx6" target="_blank"><img class="cover-art grow" src="img/wrpla.jpg" alt="West Ryder Pauper Lunatic Asylum"></a>
         </div>
         <div>
-            <table class="table table-dark table-striped my-5">
+            <table class="table table-light table-striped my-5">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
@@ -127,7 +126,25 @@
                 </tbody>
               </table>
         </div>
-        <h2>Disagree? Send me your opinion!</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <h2>Disagree? Send me your opinion!</h2>
+                    <form class="my-4"> 
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email Adress">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="textarea" rows="7" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
     <footer class="page-footer font-small pt-4 bg-dark text-light">
         <div class="container-fluid text-center text-md-left">
