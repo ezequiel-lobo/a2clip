@@ -87,3 +87,15 @@ ul.icons a{
     -webkit-transform:scale3d(1, 1, 1);
     transform:scale3d(1, 1, 1);
 }
+
+.cover-art{
+    width: 200px;
+}
+
+.grow{ 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover{ 
+    transform: scale(1.1); 
+}
